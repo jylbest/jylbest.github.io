@@ -1,0 +1,129 @@
+body{
+margin:0px;
+padding:0px;
+width:100vw;
+height:100vh;
+}
+.imglist>img:hover{
+  box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+  width:32%;
+}
+.info{
+  text-align: center;
+  padding-top: 50px;
+}
+.imglist>img{
+    width: 30%;
+    transition: width 0.5s;
+}
+.imglist{
+  text-align: center;
+  
+}
+.header{
+  height:30vw;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.photo{
+  width: 20vw;
+  height: 20vw;
+  background-image: url(../img/111.jpg);
+  background-size: 26vw;
+  background-position-x: -3.5vw;
+  background-position-y: -4vw;
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+  margin-left: 400px;
+ 
+}
+.photo:hover{
+  box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+
+
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #0BD0F3;
+  border-width:2px;
+  border-style: solid;
+  padding:20px;
+  background-color: #ede9e7;
+  border-radius: 10px;
+  width:85%;
+  background-image: url(../img/bg.jpg);
+  background-position-y: 50px;
+
+}
+.name{
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.class{
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.Wechat{
+
+ margin-bottom: 30px;
+}
+.Weibo{
+
+ margin-bottom: 30px;
+}
+.interest{
+   margin-bottom: 30px;
+}
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  margin-left: 750px;
+}
+.btn-green:hover{
+  background-color:greenyellow; 
+  
+}
+.btn-green {
+  background-color: #1d9d74;
+  color: #fff;
+}
+.btn-blue:hover{
+  background-color: #0BD0F3;
+  
+}
+.btn-blue {
+  background-color: #606db7;
+  color: #fff;
+}
+.btn-yellow:hover{
+  background-color: yellow;
+  
+}
+.btn-yellow {
+  background-color: #F57C00;
+  color: #fff;
+}
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.btn-sm {
+  padding: 8px 6px;
+  font-size: 15px;
+}
