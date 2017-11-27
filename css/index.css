@@ -55,7 +55,7 @@ height:100vh;
   width:85%;
   background-image: url(../img/bg.jpg);
   background-position-y: 50px;
-
+  background-size:120% 
 }
 .name{
   font-size: 1.1rem;
